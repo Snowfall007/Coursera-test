@@ -1,0 +1,117 @@
+/********** Base styles **********/
+*
+{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body
+{
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+h1
+{
+  font-weight: 800;
+  font-size: 3em;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 30px;
+
+}
+.row > div
+{
+  padding: 15px
+
+}
+section
+{
+  position: relative;
+  background-color: #ECECE0;
+  margin:10px auto 20px auto;
+  left:0;
+
+}
+h2
+{
+  position: absolute;
+  top:0;
+  right: 0;
+  border: 1px solid black;
+  font-weight: 600;
+  text-align: center;
+  padding:3px 30px;
+  font-size: 1.5em;
+  width: 150px;
+}
+p
+{
+
+  border: 1px solid black;
+  padding: 45px 15px 10px 15px;
+  height: 180px;
+  overflow: hidden;
+  font-weight: 400;
+
+
+
+}
+#chickenP h2
+{
+  background-color:#FFBB00;
+}
+#beefP h2
+{
+  background-color:#880000;
+  color:#fff;
+}
+#sushiP h2
+{
+  background-color:#339933;
+  color:#fff;
+}
+
+/********** desktop only **********/
+@media (min-width: 992px) {
+  
+  .col-lg-4 
+  {
+    width: 33.33%;
+    float: left;
+
+  }
+  
+
+}
+
+/********** tablet only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12
+  {
+    float:left;
+  }
+  .col-md-6
+  {
+    width: 50%;
+
+  }
+  .col-md-12
+  {
+    width: 100%;
+    
+  }
+
+}
+
+
+/********** mobile only **********/
+@media (max-width: 767px) {
+  .col-sm-12
+  {
+    float: left;
+    width: 100%;
+  }
+
+}

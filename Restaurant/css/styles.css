@@ -1,0 +1,26 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav{
+	background-color: #f6b319;
+	border-radius: 0;
+	border:0;
+}
+
+#logo-img {
+	background: url('https://media-cdn.tripadvisor.com/media/photo-s/08/4c/30/22/our-logo.jpg') no-repeat;
+	width: 150px;
+	height: 150px;
+	background-size:     cover; 
+	margin: 10px 15px 10px 0;
+}
+
+p>img{
+	width: 40px;
+	height: 25px;
+	background-size:cover;
+}
